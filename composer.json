@@ -1,0 +1,28 @@
+{
+    "name": "alexander-suter/yii2-word-frequency",
+	"description": "Word frequency calculator for Yii2",
+	"keywords": ["yii2", "word", "frequency"],
+	"homepage": "https://github.com/alexander-suter/yii2-word-frequency",
+	"type": "yii2-extension",
+	"license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Andrew Potter",
+            "email": "apc@andypotter.org"
+        },
+		{
+			"name": "Alexander Suter",
+			"email": "alexander.suter.ch@gmail.com"
+		}
+    ],
+	"minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "2.0.*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "asu\\wordfrequency\\": ""
+        }
+    }
+}
